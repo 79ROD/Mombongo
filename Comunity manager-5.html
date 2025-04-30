@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Manager | Formateur | Consultant</title><link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="icon" href="Design sans titre (1).png" type="image/png">
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #ffffff; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-bottom: 2px solid rgb(255, 255, 255); }
+    header .logo { display: flex; align-items: center; }
+    header .logo img { height: 80px; margin-right: 20px; }
+    header .contact-info { font-size: 14px; }
+    nav { background: #0c3ee0e7; display: flex; padding: 0 20px; }
+    nav a { color: #ffffff; text-decoration: none; padding: 15px; display: block; }
+    nav a:hover, nav .active { background: #00cc66; }
+    .hero { background: url('whatsapp.jpg') center/cover no-repeat; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: start; padding: 40px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.5); }
+    .hero h1 { font-size: 40px; margin: 0; color: #00cc66; }S
+    .hero p { font-size: 20px; margin: 10px 0; }
+    .hero {
+        background: url('hero-bg.jpg') center/cover no-repeat;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; /* ← AU LIEU DE center */
+        padding-right: 10%;
+        color: white;
+        text-align: right; /* ← Alignement du texte */
+        position: relative;}
+    .btn { background: #00cc66; color: white; padding: 10px 20px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; }
+    footer { background: #052bd6f7; color: #fff; text-align: center; padding: 20px; }
+    .portfolio-grid { display: flex; flex-wrap: wrap; gap: 20px; }
+    .portfolio-item { flex: 1 1 calc(33.333% - 20px); background: #f5f5f5; padding: 20px; border: 1px solid #ddd; }
+    form { max-width: 600px; margin-top: 20px; }
+    input, textarea { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #00cc66; color: white; border: none; padding: 10px 20px; cursor: pointer; }
+    button:hover { background: #00994d; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="Ben.jpg" alt="">
+      <strong>Ben-Idriss DJOMBI</strong> - Community Manager | Formateur | Consultant
+    </div>
+    <div class="contact-info">
+       +242068878879 &nbsp; idrissdjombigmail.com
+    </div>
+  </header>
+  <nav>
+    <a href="#" class="active">Accueil</a>
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Réalisations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Besoin d'un Expert Digital ?</h1>
+    <p>Je vous accompagne pour booster votre visibilité en ligne.</p>
+    <a href="#contact" class="btn">Contactez-moi</a>
+  </div>
+
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis Community Manager, Formateur et Consultant en Marketing Digital. Mon objectif est d'aider les entrepreneurs, PME et indépendants à construire une présence digitale efficace, humaine et rentable.</p>
+  </section>
+  
+  <section id="services" >
+    <h2>Mes Services </h2>
+    <ul  type="none">
+      <li>Gestion de réseaux sociaux (Facebook, Instagram,LinkedIn,TikTok...)</li>
+      <li>Création de contenu et stratégie éditoriale</li>
+      <li>Formation en marketing digital (individuelle ou groupe)</li>
+      <li>Consulting personnalisé pour entrepreneurs</li>
+      <li>Campagnes publicitaires Meta/Google</li>
+    </ul>
+  </section>
+
+  <section id="portfolio" style="padding: 50px;">
+    <h2>Mon Portfolio</h2>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  
+      <div class="portfolio-item" style="width: 30%; border: 1px solid #ccc; padding: 10px;">
+        <h3>Accompagnement Facebook Business</h3>
+        <p>Optimisation et gestion de pages pour des entrepreneurs locaux.</p>
+      </div>
+  
+      <div class="portfolio-item" style="width: 30%; border: 1px solid #ccc; padding: 10px;">
+        <h3>Formation LinkedIn Pro</h3>
+        <p>Formation individuelle à l’optimisation de profils LinkedIn pour professionnels.</p>
+      </div>
+  
+      <div class="portfolio-item" style="width: 30%; border: 1px solid #ccc; padding: 10px;">
+        <h3>Instagram pour PME</h3>
+        <p>Création de contenus et accompagnement à la gestion stratégique de compte Instagram.</p>
+      </div>
+  
+      <div class="portfolio-item" style="width: 30%; border: 1px solid #ccc; padding: 10px;">
+        <h3>Formations en marketing digital</h3>
+        <p>Sessions pratiques sur les réseaux sociaux et le branding personnel.</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  </section>
+    
+      <div class="portfolio-item">
+        <h3>Stratégie Digitale - Startup Y</h3>
+        <p>Accompagnement 360° sur 6 mois</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Prêt à passer à l'action ? Remplissez le formulaire ci-dessous :</p>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p>Ou contactez-moi directement :<br><br> idrissdjombi10@gmail.com<br> <br>+242068878879</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ben-Idriss DJOMBI | Tous droits réservés.
+  </footer>
+</body>
+</html>
+
